@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link rel="stylesheet" href="css/fontFace.css" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <title>title</title>
+    </head>
+    <body class="container-fluid">
+        <header id="header">
+            <div class="navigation-wrap start-header start-style">
+                <div class="container p-md-0">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="navbar navbar-expand-md p-md-0 py-lg-3 px-lg-2">
+                                <a class="navbar-brand effect-shine pl-4" href="https://front.codes/" target="_blank"> باشگاه بدنسازی وحید </a>
+
+                                <button onclick="myFunction(this)" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" >
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                        <li class="nav-item text-xs-center pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="#">خانه</a>
+                                        </li>
+                                        <li class="nav-item text-xs-center pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="#">برنامه های من</a>
+                                        </li>
+                                        <li class="nav-item text-xs-center pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="#">تماس با ما</a>
+                                        </li>
+                                        <li class="nav-item text-xs-center pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="#">مقالات</a>
+                                        </li>
+                                        <li class="nav-item text-xs-center pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="#">سوالات متداول</a>
+                                        </li>
+                                    </ul>
+                                    <div class="text-xs-center">
+                                        <!-- <a href="#" class="btn btn-lr ml-2">ورود</a>
+                                        <a href="#" class="btn btn-lr">ثبت نام</a> -->
+                                        <a href="#" class="btn btn-lr">ورود به پنل کاربری</a>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="row tab-row">
+                <div class="col-md-4 mb-xs-3 mb-sm-3">
+                    <div>
+                        <section class="user-content text-center">
+                            <i class="fa fa-3x fa-user"></i>
+                            <h3>کاربر 1</h3>
+                        </section>
+                    </div>
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-plan-tab" data-toggle="pill" href="#v-pills-plan" role="tab">برنامه های من</a>
+                        <a class="nav-link" id="v-pills-user-info-tab" data-toggle="pill" href="#v-pills-user-info" role="tab">اطلاعات کاربر</a>
+                        <a class="nav-link" id="v-pills-update-plan-tab" data-toggle="pill" href="#v-pills-update-plan" role="tab">برنامه ی جدید</a>
+                        <a class="nav-link" data-toggle="modal" data-target="#exite" role="button">خروج</a>
+                    </div>
+                </div>
+                <div class="col-md-8 mb-3">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-plan" role="tabpanel" aria-labelledby="v-pills-plan-tab">
+                            
+
+                            <nav>
+                                <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-e-plan-tab" data-toggle="tab" href="#nav-e-plan" role="tab">برنامه ی تمرینی</a>
+                                    <a class="nav-item nav-link" id="nav-f-plan-tab" data-toggle="tab" href="#nav-f-plan" role="tab">برنامه ی غذایی</a>
+                                    <a class="nav-item nav-link" id="nav-o-plan-tab" data-toggle="tab" href="#nav-o-plan" role="tab">قدیمی تر</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-e-plan" role="tabpanel">
+                                    <div class="text-muted">
+                                        <span> ماه اول </span>
+                                        <br />
+                                        <span>آخرین بروزرسانی : <span>2روز پیش</span> </span>
+                                    </div>
+                                    <table class="table table-striped">
+                                        <h2>روز یک</h2>
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th >#</th>
+                                                <th>نام حرکت</th>
+                                                <th>تعداد ست</th>
+                                                <th>تکرار</th>
+                                                <th>ویدیو</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>پرس سینه هالتر</td>
+                                                <td>4</td>
+                                                <td>12</td>
+                                                <td>
+                                                    <a href="#" data-toggle="modal" data-target="#video-modal" role="button"><i class="fa fa-video"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>پرس زیر سینه هالتر</td>
+                                                <td>4</td>
+                                                <td>12</td>
+                                                <td>
+                                                    <a href="#" data-toggle="modal" data-target="#video-modal" role="button"><i class="fa fa-video"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>پرس بالا سینه هالتر</td>
+                                                <td>4</td>
+                                                <td>12</td>
+                                                <td>
+                                                    <a href="#" data-toggle="modal" data-target="#video-modal" role="button"><i class="fa fa-video"></i></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table table-striped">
+                                        <h2>روز دو</h2>
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th>#</th>
+                                                <th>نام حرکت</th>
+                                                <th>تعداد ست</th>
+                                                <th>تکرار</th>
+                                                <th>ویدیو</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>پرس سینه هالتر</td>
+                                                <td>4</td>
+                                                <td>12</td>
+                                                <td>
+                                                    <a href="#" data-toggle="modal" data-target="#video-modal" role="button"><i class="fa fa-video"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>پرس زیر سینه هالتر</td>
+                                                <td>4</td>
+                                                <td>12</td>
+                                                <td>
+                                                    <a href="#" data-toggle="modal" data-target="#video-modal" role="button"><i class="fa fa-video"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>پرس بالا سینه هالتر</td>
+                                                <td>4</td>
+                                                <td>12</td>
+                                                <td>
+                                                    <a href="#" data-toggle="modal" data-target="#video-modal" role="button"><i class="fa fa-video"></i></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table table-striped">
+                                        <h2>روز سه</h2>
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th>#</th>
+                                                <th>نام حرکت</th>
+                                                <th>تعداد ست</th>
+                                                <th>تکرار</th>
+                                                <th>ویدیو</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>پرس سینه هالتر</td>
+                                                <td>4</td>
+                                                <td>12</td>
+                                                <td>
+                                                    <a href="#" data-toggle="modal" data-target="#video-modal" role="button"><i class="fa fa-video"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>پرس زیر سینه هالتر</td>
+                                                <td>4</td>
+                                                <td>12</td>
+                                                <td>
+                                                    <a href="#" data-toggle="modal" data-target="#video-modal" role="button"><i class="fa fa-video"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>پرس بالا سینه هالتر</td>
+                                                <td>4</td>
+                                                <td>12</td>
+                                                <td>
+                                                    <a href="#" data-toggle="modal" data-target="#video-modal" role="button"><i class="fa fa-video"></i></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- video modal -->
+                                    <div id="video-modal" class="modal fade" tabindex="-1" role="dialog">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        <div class="col-12 text-center">
+                                                            <video width="320px" height="250px" controls>
+                                                                <source src="videos/" />
+                                                            </video>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- print btn -->
+                                    <button class="btn btn-block btn-outline-dark" onclick="window.print()">چاپ برنامه</button>
+                                </div>
+
+                                <div class="tab-pane fade" id="nav-f-plan" role="tabpanel">
+                                    <table class="table table-striped">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th>#</th>
+                                                <th colspan="3">صبحانه</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr></tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td colspan="3">تخم مرغ آب پز</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td colspan="3">شیر</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td colspan="3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quas!</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table table-striped">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th>#</th>
+                                                <th colspan="3">نهار</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr></tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td colspan="3">تخم مرغ آب پز</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td colspan="3">شیر</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td colspan="3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quas!</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- print btn -->
+                                    <button class="btn btn-block btn-outline-dark" onclick="window.print()">چاپ برنامه</button>
+                                </div>
+                                <div class="tab-pane fade" id="nav-o-plan" role="tabpanel">
+                                    <div id="accordion">
+                                        <div class="card">
+                                            <div class="card-header bg-dark" id="headingOne">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link" data-toggle="collapse" data-target="#1">برنامه ی اسفند 1399</button>
+                                                </h5>
+                                            </div>
+                                            <div id="1" class="collapse">
+                                                <div class="card-body">
+                                                    <!-- exercise plan old -->
+                                                    <div class="old-e-plan">
+                                                        <h1 >برنامه ی تمرینی</h1>
+                                                        <table class="table table-striped">
+                                                            <h2>روز یک</h2>
+                                                            <thead class="thead-dark">
+                                                                <tr>
+                                                                    <th>#</th>
+                                                                    <th>نام حرکت</th>
+                                                                    <th>تعداد ست</th>
+                                                                    <th>تکرار</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>1</td>
+                                                                    <td>پرس سینه هالتر</td>
+                                                                    <td>4</td>
+                                                                    <td>12</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>2</td>
+                                                                    <td>پرس زیر سینه هالتر</td>
+                                                                    <td>4</td>
+                                                                    <td>12</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>3</td>
+                                                                    <td>پرس بالا سینه هالتر</td>
+                                                                    <td>4</td>
+                                                                    <td>12</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <hr />
+                                                    <!-- food plan old -->
+                                                    <div class="old-f-plan">
+                                                        <h1 class="font-weight-bold">برنامه ی غذایی</h1>
+                                                        <table class="table table-striped">
+                                                            <thead class="thead-dark">
+                                                                <tr>
+                                                                    <th>#</th>
+                                                                    <th colspan="3">صبحانه</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr></tr>
+                                                                <tr>
+                                                                    <td>1</td>
+                                                                    <td colspan="3">تخم مرغ آب پز</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>2</td>
+                                                                    <td colspan="3">شیر</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>3</td>
+                                                                    <td colspan="3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quas!</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <table class="table table-striped">
+                                                            <thead class="thead-dark">
+                                                                <tr>
+                                                                    <th>#</th>
+                                                                    <th colspan="3">نهار</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr></tr>
+                                                                <tr>
+                                                                    <td>1</td>
+                                                                    <td colspan="3">تخم مرغ آب پز</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>2</td>
+                                                                    <td colspan="3">شیر</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>3</td>
+                                                                    <td colspan="3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quas!</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <!-- print btn -->
+                                                    <button class="btn btn-block btn-outline-dark" onclick="window.print()">چاپ برنامه</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-user-info" role="tabpanel" aria-labelledby="v-pills-user-info-tab">
+                            <h2 class="text-muted">اطلاعات کاربر</h2>
+                            <div class="row">
+                                <div class="col-6 py-1">
+                                    <input class="form-control" type="text" placeholder="نام" />
+                                </div>
+                                <div class="col-6 py-1">
+                                    <input class="form-control" type="text" placeholder="نام خانوادگی" />
+                                </div>
+                                <div class="col-6 py-1">
+                                    <input class="form-control" type="text" value="09090000" readonly />
+                                </div>
+                                <div class="col-6 py-1">
+                                    <input class="form-control" type="text" placeholder="سن" />
+                                </div>
+                                <div class="col-6 py-1">
+                                    <button type="submit" class="btn btn-block btn-dark">ذخیره ی تغییرات</button>
+                                </div>
+                                <div class="col-6 py-1">
+                                    <button type="submit" class="btn btn-block btn-outline-dark">تغییر پسورد</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade position-relative" id="v-pills-update-plan" role="tabpanel">
+                            <!-- alert -->
+                            <div class="alert alert-dark alert-dismissible">
+                                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                <strong>برای دریافت برنامه ی جدید لطفا اطلاعات زیر را با دقت پر کنید</strong>
+                            </div>
+
+                            <button class="btn btn-outline-dark position-absolute" data-toggle="modal" data-target="#guid">راهنما</button>
+                            <h2 class="text-muted">بروزرسانی</h2>
+                            <form action="#">
+                                <div class="row body-details-div">
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="قد" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">سانتی متر</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="وزن" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">کیلوگرم</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="سن" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">سال</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="دور بازو" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">سانتی متر</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="دور سینه" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">سانتی متر</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="دور باسن" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">سانتی متر</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="دور ساعد" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">سانتی متر</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="دور سرشانه" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">سانتی متر</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="دور گردن" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">سانتی متر</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="دور شکم" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">سانتی متر</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="دور کمر" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">سانتی متر</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="دور ران" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">سانتی متر</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="دور ساق پا" />
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">سانتی متر</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 py-1">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">گروه خونی</span>
+                                            </div>
+                                            <select class="form-control">
+                                                <option>O+</option>
+                                                <option>O-</option>
+                                                <option>A+</option>
+                                                <option>A-</option>
+                                                <option>B+</option>
+                                                <option>B-</option>
+                                                <option>AB+</option>
+                                                <option>AB-</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 py-1">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">جنسیت</span>
+                                            </div>
+                                            <select class="form-control">
+                                                <option>مذکر</option>
+                                                <option>مونث</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 py-1">
+                                        <div class="form-group">
+                                            <textarea id="explan" class="form-control" rows="6" placeholder="در صورت داشتن بیماری خاص اطلاع دهید و هدف خود را از برنامه شرح دهید. مثال: افزایش وزن"></textarea>
+                                        </div>
+                                    </div>
+                                    <h2 class="col-12 text-muted">آپلود تصویر بدن(اختیاری)</h2>
+                                    <div class="col-4 py-1">
+                                        <label class="input-file-label">
+                                            <input type="file" />
+                                            تصویر از جلو
+                                        </label>
+                                    </div>
+                                    <div class="col-4 py-1">
+                                        <label class="input-file-label">
+                                            <input type="file" />
+                                            تصویر از بغل
+                                        </label>
+                                    </div>
+                                    <div class="col-4 py-1">
+                                        <label class="input-file-label">
+                                            <input type="file" />
+                                            تصویر از پشت
+                                        </label>
+                                    </div>
+                                    <div class="col-12 py-1">
+                                        <button type="submit" class="btn btn-dark btn-block">ارسال</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- guid modal -->
+                    <div class="modal fade" id="guid" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body text-center">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="font-weight-bold text-warning">لطفا به تصاویر زیر دقت کنید</p>
+                                        </div>
+                                        <div class="col-12">
+                                            <div>
+                                                <img src="img/body-tape-measurements.jpg" width="100%" height="400px" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div>
+                                                <span>به ترتیب از بالا به پایین: دور گردن ، دور سرشانه ، دور سینه ، دور بازو ، دور شکم ، دور ران ، دور ساق</span>
+                                                <img src="img/body.jpeg" width="60%" height="900px" />  
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div>
+                                                <span>سمت راست: دور مچ و سمت چپ: دور ساعد</span>
+                                                <img src="img/fitshape11-1.jpg" width="100%" height="400px" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- exite modal -->
+                    <div class="modal fade" id="exite" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body text-center">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="text-danger">آیا مایل به خروج هستید؟</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <input type="submit" class="btn btn-block btn-danger" value="بله" />
+                                        </div>
+                                        <div class="col-6">
+                                            <input type="submit" class="btn btn-block btn-outline-danger" value="خیر" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer" class="row">
+            <div class="col-md-4">
+                <div class="call-us">
+                    <div class="heading">
+                        <h4 class="effect-shine">تماس با ما</h4>
+                    </div>
+                    <div class="text-center call-us-inner">
+                        <p><span>شماره تماس: </span><span>099000000</span></p>
+                        <p><span>ایمیل: </span><span>@gmail.com</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-us">
+                    <div class="heading">
+                        <h4 class="effect-shine">ارتباط با ما</h4>
+                    </div>
+                    <div class="contact-us-icons text-center">
+                        <a href="#">
+                            <img src="img/icons8-instagram.svg" width="55px" height="55px" />
+                        </a>
+                        <a href="#">
+                            <img src="img/icons8-telegram-app.svg" width="50px" height="50px" />
+                        </a>
+                        <a href="#">
+                            <img src="img/whatsapp-icon-seeklogo.com.svg" width="45px" height="45px" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pl-lg-5 py-2">
+                <div class="subscribe-us">
+                    <div class="heading">
+                        <h4 class="effect-shine">عضویت در خبر نامه ی ما</h4>
+                    </div>
+                    <form action="#">
+                        <div class="input-group">
+                            <div class="input-group-btn input-group-prepend">
+                                <button class="btn" type="submit">عضویت</button>
+                            </div>
+                            <input type="email" class="form-control" placeholder="ایمیل خود را وارد کنید" required />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12 policy">
+                <div class="text-center">
+                    <p class="p-0 m-0 text-light font-weight-bold">&#169; کلیه ی حقوق این سایت متعلق به باشگاه بدنسازی وحید می باشد</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/btn.js"></script>
+    <!-- <script src="js/date.js"></script> -->
+</html>

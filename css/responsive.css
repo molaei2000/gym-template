@@ -1,0 +1,280 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        overflow: visible;
+    }
+.text-xs-center{
+    text-align: center !important;
+}
+.carousel-row{
+    padding-top: 9rem;
+}
+.carousel-item img{
+    height: 16rem;
+}
+.mb-xs-3{
+    margin-bottom: 2rem;
+}
+#main .card {
+    border-radius: 30px;
+    background: #f6f6f6 !important;
+    box-shadow: 8px 8px 8px #cbced1, -8px -8px 8px #fff;
+    width: 100%;
+    position: relative;
+    border: none !important;
+    border-radius: 32px !important;
+    text-align: center;
+}
+.card span {
+    font-size: 23px;
+    line-height: 100px;
+    font-weight: bold;
+}
+.cost{
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    right: 0px;
+}
+
+.card-buy {
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0px;
+}
+.article-row .card{
+	border-radius: 30px;
+	background: #f6f6f6 !important;
+	box-shadow: 8px 8px 8px #cbced1,
+    -8px -8px 8px #fff;
+	width: 100%;
+	height: auto !important;
+	position: relative;
+	border: none !important;
+	border-radius: 32px !important;
+	text-align: center;
+	transition: all 1s ease;
+	color: var(--royaleblue) !important;
+	overflow: hidden;
+}
+.body-details-div .input-file-label {
+    border-radius: 15px;
+    border: 2px solid #343a40;
+    background-color: #fff;
+    color: #343a40;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 3vw;
+}
+
+/* login forget chang */
+.fields input {
+    border: none !important;
+    outline: none !important;
+    background: none !important;
+    font-size: 3vw;
+    color: #555;
+    padding: 15px 10px 15px 5px;
+    text-align: right;
+}
+/* user pannel */
+#v-pills-tabContent .nav-tabs .nav-link {
+    margin-left: 5px;
+    border: none !important;
+    font-weight: bold;
+    font-size: 3.5vw;
+    padding: 5px 8px !important;
+    border-radius: 5px;
+}
+.table td, .table th {
+    padding: .5rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.old-e-plan h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#v-pills-user-info .col-6 button{
+    font-size: 0.75rem;
+}
+/* article page */
+#article-page .row{
+    margin-top: 9rem;
+}
+#article-page .article-img img{
+    border-radius: 15px;
+    height: 50vw;
+
+}
+#article-page .article-img h4{
+    top: 5px;
+    right: 5px;
+    color: #343a40;
+}
+#article-page .article-body h3{
+    font-size: 1.75rem;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        overflow: visible;
+    }
+    .text-xs-center{
+        text-align: center !important;
+    }
+    .carousel-item img{
+        height: 24rem;
+    }
+    .card span {
+        font-size: 25px;
+        line-height: 100px;
+        font-weight: bold;
+    }
+    #main .card {
+        border-radius: 30px;
+        background: #f6f6f6 !important;
+        box-shadow: 8px 8px 8px #cbced1, -8px -8px 8px #fff;
+        width: 100%;
+        position: relative;
+        border: none !important;
+        border-radius: 32px !important;
+        text-align: center;
+    }
+    .cost{
+        position: absolute;
+        bottom: 90px;
+        left: 0;
+        right: 0px;
+    }
+    
+    .card-buy {
+        padding-bottom: 20px;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        right: 0px;
+    }
+    /* article page */
+    #article-page .row{
+        margin-top: 9rem;
+    }
+    .img-caption{
+        font-size: 3rem;
+    }
+    #article-page .article-img img{
+        border-radius: 15px;
+        height: 45vw;
+    }
+    #article-page .article-img h4{
+        top: 5px;
+        right: 5px;
+        color: #343a40;
+    }
+    #article-page .article-body h3{
+        font-size: 1.75rem;
+    }
+    #article-page .article-body p{
+        font-size: 1.5rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #header .nav-item{
+    font-size: 1.5vw;
+    }
+
+    .btn-lr {
+    font-size: 1.5vw;
+    }
+    .navbar-brand{
+        font-size: 1.5vw
+    }
+    .carousel-item img{
+        height: 26rem;
+    }
+    .cost{
+        position: absolute;
+        bottom: 90px;
+        left: 0;
+        right: 0px;
+    }
+    .card-buy {
+        padding-bottom: 20px;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        right: 0px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+        #header .nav-item{
+        font-size: 1.75vw;
+        }
+        .btn-lr {
+        font-size: 1.75vw;
+        }
+        .navbar-brand{
+            font-size: 1.75vw
+        }
+        .carousel-row {
+            padding-top: 9rem;
+            padding-bottom: 4rem;
+        }
+        .carousel-item img{
+            height: 28rem;
+        }
+        .card span {
+            font-size: 20px;
+            line-height: 80px;
+            font-weight: bold;
+        }
+        .cost{
+            position: absolute;
+            bottom: 90px;
+            left: 0;
+            right: 0px;
+        }
+        
+        .card-buy {
+            padding-bottom: 20px;
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            right: 0px;
+        }
+        
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    #header .nav-item{
+    font-size: 1rem;
+    }
+    .btn-lr {
+    font-size: 1rem;
+    }
+    .navbar-brand{
+        font-size: 1.25rem;
+    }
+    .carousel-item img{
+        height: 30rem;
+    }
+    .card span {
+        font-size: 1.5rem;
+        line-height: 80px;
+        font-weight: bold;
+    }
+}
